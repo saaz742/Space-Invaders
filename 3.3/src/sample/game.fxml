@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" prefHeight="927.0" prefWidth="1334.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Game">
+   <children>
+      <Text fill="WHITE" layoutX="1296.0" layoutY="42.0" onMouseClicked="#exit" strokeType="OUTSIDE" strokeWidth="0.0" text="X">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <Label fx:id="score" layoutX="14.0" layoutY="14.0" prefHeight="37.0" prefWidth="308.0" text="score" textFill="#00a6ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

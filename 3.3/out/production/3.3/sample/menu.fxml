@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="828.0" prefWidth="1310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Game">
+   <children>
+      <ImageView fitHeight="828.0" fitWidth="1325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/background.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="465.0" layoutY="224.0" prefHeight="52.0" prefWidth="313.0" promptText="username" style="-fx-background-color: #b4dff5;" />
+      <TextField fx:id="newUsername" layoutX="463.0" layoutY="332.0" prefHeight="52.0" prefWidth="313.0" promptText="new username" style="-fx-background-color: #b4dff5;" />
+      <Label fx:id="userMs" layoutX="465.0" layoutY="276.0" prefHeight="34.0" prefWidth="313.0" textFill="#b4dff5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="newUserMs" layoutX="466.0" layoutY="384.0" prefHeight="34.0" prefWidth="313.0" textFill="#b4dff5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="Ready" layoutX="500.0" layoutY="440.0" mnemonicParsing="false" onMouseClicked="#ready" prefHeight="52.0" prefWidth="245.0" text="ready" />
+      <Button fx:id="exit" layoutX="550.0" layoutY="643.0" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="34.0" prefWidth="144.0" text="Exit" />
+      <Button fx:id="scoreBoard" layoutX="519.0" layoutY="543.0" mnemonicParsing="false" onMouseClicked="#scoreBoard" prefHeight="52.0" prefWidth="205.0" text="ScoreBoard" />
+      <Label fx:id="readyMs" layoutX="500.0" layoutY="492.0" onMouseClicked="#ready" prefHeight="21.0" prefWidth="245.0" textFill="#f20404" />
+      <Button fx:id="userBut" layoutX="802.0" layoutY="235.0" mnemonicParsing="false" onMouseClicked="#login" text="Login" />
+      <Button fx:id="newUserBut" layoutX="807.0" layoutY="343.0" mnemonicParsing="false" onMouseClicked="#newUsername" text="new" />
+      <TextField fx:id="SignUpUsername" layoutX="465.0" layoutY="126.0" prefHeight="52.0" prefWidth="313.0" promptText="username" style="-fx-background-color: #b4dff5;" />
+      <Label fx:id="signUpUserMs" layoutX="465.0" layoutY="177.0" prefHeight="34.0" prefWidth="313.0" textFill="#b4dff5">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="signupUserBut" layoutX="795.0" layoutY="137.0" mnemonicParsing="false" onMouseClicked="#signUp" text="Sign up" />
+      <Label fx:id="scoreMs" layoutX="512.0" layoutY="595.0" onMouseClicked="#ready" prefHeight="21.0" prefWidth="231.0" textFill="#f20404" />
+   </children>
+</AnchorPane>
